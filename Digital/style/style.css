@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-container {
+  background-color: rgb(99, 107, 114);
+  padding: 20px 100px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.manu-list {
+  list-style: none;
+  display: flex;
+}
+.manu-list li {
+  margin-left: 10px;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: large;
+}
+.manu-list li:hover {
+  color: greenyellow;
+}
+/* banner section style */
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: url(../images/background.png),
+    linear-gradient(30deg, #0a0a0a, #000);
+  height: 100vh;
+  color: white;
+}
+.banner-img {
+  width: 300px;
+}
+.btn {
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.banner-titel {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.sub-titel {
+  font-size: 16px;
+  padding: 0 0 15px 0;
+}
+/* about container */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  margin: 0 100px;
+  text-align: justify;
+}
+.about-heading {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.about-img {
+  width: 300px;
+}
+.about-titel {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.about-description {
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+/* Our Service's */
+.service {
+  background-image: url(../images/background.png),
+    linear-gradient(30deg, #121111, #010101);
+  /* height: 100vh; */
+}
+.box-container {
+  display: flex;
+  justify-content: space-around;
+}
+.service-img {
+  width: 60px;
+  margin-top: 20px;
+}
+.box {
+  background-color: #0a0a0a;
+  height: 300px;
+  width: 230px;
+  border-radius: 10px 100px / 120px;
+  color: aliceblue;
+  margin: 40px 0;
+  /* box-shadow: 30px 30px 30px 30px rgba(245, 245, 245, 0.921);
+  box-shadow: rgb(128, 128, 128, 128) 2px 4px; */
+  box-shadow:30px 30px  445px gray  ;
+  
+  text-align: center;
+}
+.service .about-heading {
+  color: aliceblue;
+  margin-top: 50px;
+}
+.srv-description {
+  text-align: center;
+  padding: 0 14px;
+
+  margin-bottom: 10px;
+}
+.service-titel {
+  margin: 10px 0 10px 0;
+  text-align: center;
+  
+
+}
+.btn-lite {
+  background-color: rgb(46, 45, 45);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+.footer{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer-p{
+    color: rgb(255, 255, 255);
+}
+/* .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 50px;
+} */
+.footer ul li{
+    list-style: none;
+    align-items: center;
+
+}
+footer{
+  background-color: black;
+  height: 100vh;
+}
+.copy p{
+  color: white;
+   text-align: center;
+   align-items: center;
+    
+   margin-top: 10px;
+   margin-bottom: 20px;
+    
+    
+  
+}
+.copy hr{
+  margin-left: 250px;
+  align-items: center;
+}
